@@ -94,13 +94,15 @@ namespace TextFileDataAccessGUI
             }
         }
 
+        //Binding source should connect the people list to the lb_PersonList listbox control and the display
+        //member shoud invoke the Person Class overriden ToString() method for display of all information 
         private void Form1_Load(object sender, EventArgs e)
         {
 
            
             bindingSource.DataSource = people;
             lb_PersonList.DataSource = bindingSource;
-            lb_PersonList.DisplayMember = people.ToString();
+            lb_PersonList.DisplayMember = ToString();
             
 
 
