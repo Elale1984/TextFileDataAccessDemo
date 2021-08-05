@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFileDataAccessDemo", "TextFileDataAccessDemo\TextFileDataAccessDemo.csproj", "{5065A523-0C13-497E-A696-6063381C90E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileDataAccessGUI", "TextFileDataAccessGUI\TextFileDataAccessGUI.csproj", "{148086C3-7634-47A2-A39B-652D9F83EFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5065A523-0C13-497E-A696-6063381C90E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5065A523-0C13-497E-A696-6063381C90E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5065A523-0C13-497E-A696-6063381C90E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5065A523-0C13-497E-A696-6063381C90E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148086C3-7634-47A2-A39B-652D9F83EFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148086C3-7634-47A2-A39B-652D9F83EFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148086C3-7634-47A2-A39B-652D9F83EFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148086C3-7634-47A2-A39B-652D9F83EFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C4203C-A385-43B0-83CF-C2BE47F303E3}
+	EndGlobalSection
+EndGlobal
